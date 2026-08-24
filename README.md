@@ -22,13 +22,14 @@ The projects deliberately build on each other:
   — from one stock to a whole basket: correlation between assets and the
   mean-variance optimization behind the classic "efficient frontier," including
   the realistic no-shorting version.
-- **[Backtester](https://github.com/GalacticChill/weekly-builds/tree/main/projects/backtester)**
+- **[Honest Backtester](https://github.com/GalacticChill/honest-backtester)** *(its own repo)*
   — from *what's optimal in theory* to *what actually happens*: simulate holding a
-  portfolio through real history with rebalancing and trading costs, then test
-  signal-driven strategies (momentum, inverse-volatility) with **no lookahead
-  bias** — the mistake that makes most amateur backtests look better than they are
-  — plus **walk-forward validation** that picks parameters in-sample only and
-  measures the out-of-sample "overfitting tax."
+  portfolio through real history with rebalancing and trading costs, then defend
+  against the three ways a backtest fools you — **no lookahead bias**,
+  **walk-forward validation** that measures the "overfitting tax" of tuning
+  parameters, and **bootstrap significance** testing that asks whether the Sharpe
+  is distinguishable from luck at all. Grew over four weeks into a small framework;
+  pip-installable and CI-tested.
 
 From there the work branched into machine learning:
 
@@ -64,5 +65,6 @@ it honest.
 
 More original, question-driven projects across finance and machine learning — and
 polishing the strongest builds into standalone repos, the way
-[Star Signals](https://github.com/GalacticChill/star-signals) grew out of the
-weekly log. The habit keeps going.
+[Star Signals](https://github.com/GalacticChill/star-signals) and
+[Honest Backtester](https://github.com/GalacticChill/honest-backtester) grew out of
+the weekly log. The habit keeps going.
