@@ -43,6 +43,12 @@ From there the work branched into machine learning:
   — unsupervised learning: hand a clustering algorithm nothing but daily price
   moves and watch it **rediscover the market's sectors** — then measure, honestly,
   where it agrees with reality and where it finds something deeper.
+- **[Life & Money](https://github.com/GalacticChill/life-and-money)** *(its own repo)*
+  — beyond markets: does **wealth buy a longer life**? Using World Bank data on ~200
+  countries, I trace the Preston curve (income buys longevity, with steep
+  diminishing returns), find that **clean water and sanitation nearly rival income**
+  as predictors, and rank the countries that live far longer — or shorter — than
+  their wealth predicts. Pip-installable and CI-tested.
 
 Each week tends to fix or extend the one before it. I like turning a limitation I
 noticed into next week's project.
@@ -63,8 +69,9 @@ it honest.
 
 ## What's next
 
-More original, question-driven projects across finance and machine learning — and
-polishing the strongest builds into standalone repos, the way
-[Star Signals](https://github.com/GalacticChill/star-signals) and
-[Honest Backtester](https://github.com/GalacticChill/honest-backtester) grew out of
-the weekly log. The habit keeps going.
+More original, question-driven projects across finance, machine learning, and the
+wider world — and polishing the strongest builds into standalone repos, the way
+[Star Signals](https://github.com/GalacticChill/star-signals),
+[Honest Backtester](https://github.com/GalacticChill/honest-backtester), and
+[Life & Money](https://github.com/GalacticChill/life-and-money) grew out of the
+weekly log. The habit keeps going.
