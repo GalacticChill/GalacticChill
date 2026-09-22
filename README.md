@@ -50,6 +50,26 @@ From there the work branched into machine learning:
   as predictors, and rank the countries that live far longer — or shorter — than
   their wealth predicts. Pip-installable and CI-tested.
 
+And lately into language and forensic statistics:
+
+- **[Word Prints](https://github.com/GalacticChill/weekly-builds/tree/main/projects/word-prints)**
+  — can you name the author of a passage from the words nobody notices (*the, of,
+  upon*)? Across 20 novels by five authors, those function words alone identify the
+  writer **87%** of the time (chance is 20%), *beating* the full vocabulary, because
+  topics change from book to book but habits don't.
+- **[Benford's Law](https://github.com/GalacticChill/weekly-builds/tree/main/projects/benford)**
+  — why real-world numbers start with a 1 about 30% of the time, tested on World Bank
+  data against deliberate controls, and an honest look at why it's a screening tool,
+  not a fraud detector.
+- **[Slang Half-Life](https://github.com/GalacticChill/slang-half-life)** *(its own
+  repo, with a [live dashboard](https://galacticchill.github.io/slang-half-life/))*
+  — how long does a slang term live? Ten years of Wiktionary lookups for 77 terms,
+  survival analysis of their half-lives, and 10,000 Urban Dictionary definitions.
+  Slang *feels* like it's dying faster, but the evidence is weak; what holds up
+  strongly is that **insiders define a word on Urban Dictionary months before the
+  mainstream looks it up.** The dashboard is an installable app that works offline
+  and refreshes itself every week.
+
 Each week tends to fix or extend the one before it. I like turning a limitation I
 noticed into next week's project.
 
@@ -65,7 +85,8 @@ noticed into next week's project.
 ## Tools I reach for
 
 Python, NumPy, pandas, SciPy, scikit-learn, and matplotlib — with pytest keeping
-it honest.
+it honest. Plain HTML and JavaScript when a project needs a live dashboard, and
+GitHub Actions to test and refresh things automatically.
 
 ## What's next
 
@@ -74,4 +95,6 @@ wider world — and polishing the strongest builds into standalone repos, the wa
 [Star Signals](https://github.com/GalacticChill/star-signals),
 [Honest Backtester](https://github.com/GalacticChill/honest-backtester), and
 [Life & Money](https://github.com/GalacticChill/life-and-money) grew out of the
-weekly log. The habit keeps going.
+weekly log. Some start as their own repo from day one, like
+[Slang Half-Life](https://github.com/GalacticChill/slang-half-life). The habit keeps
+going.
